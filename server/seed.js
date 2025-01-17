@@ -2,7 +2,7 @@
 import mongoose from 'mongoose';
 import PostMessage from './models/postMessage.js'; // Adjust the path as necessary
 
-const CONNECTION_URL = 'mongodb://user:pass@mongodb:27017/test?authSource=admin';
+const CONNECTION_URL = 'mongodb://user:pass@127.0.0.1:27017/test?authSource=admin';
 
 const seedData = [
   {
